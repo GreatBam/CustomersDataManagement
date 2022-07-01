@@ -54,7 +54,7 @@ if(isset($_POST['Submit'])) {
                 <td><input type="text" name="firstname" placeholder="John"></td>
             </tr>
             <tr>
-                <td>Lastname</td>
+                <td>Lastname</td bullshit>
                 <td><input type="text" name="lastname", placeholder="Smith"></td>
             </tr>
             <tr>
