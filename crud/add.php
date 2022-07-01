@@ -67,7 +67,7 @@ if(isset($_POST['Submit'])) {
             </tr>
             <tr>
                 <td>Phone</td>
-                <td><input type="text" name="phone" placeholder="077 / 123 45 67"></td>
+                <td><input type="text" name="phone" placeholder="077 123 45 67"></td>
             </tr>
             <tr>
                 <td></td>
