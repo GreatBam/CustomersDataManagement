@@ -3,6 +3,7 @@
 include_once("config.php");
 
 if(isset($_POST['Submit'])) {
+    // first comment
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $age = $_POST['age'];
@@ -13,7 +14,7 @@ if(isset($_POST['Submit'])) {
     if(empty($firstname) || empty($lastname) || empty($age) || empty($email) || empty($phone)) {
 
         if(empty($firstname)) {
-            echo "<font color='red'>Firstname field is empty.</font><br/>";
+            echo "<font color='red'>Firstname field is empty!</font><br/>";
         }
 
         if (empty($lastname)) {
@@ -35,7 +36,6 @@ if(isset($_POST['Submit'])) {
     } else {
         // if all the fields are filled (not empty)
 
-        //insert data to database
         $sql = "INSERT INTO users(firstname, lastname, age, email, phone) VALUES(?, ?, ?, ?, ?)";
         $newData = $dbConn->insertRow($sql, [$firstname, $lastname, $age, $email, $phone]);
 
