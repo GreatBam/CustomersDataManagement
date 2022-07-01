@@ -1,0 +1,176 @@
+* 
+{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.addbutton
+{
+    background-color: #3f69a8;
+    border: none;
+    color: #ecf0f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 45px;
+    cursor: pointer;
+}
+
+body 
+{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.button 
+{
+    background-color: #3f69a8;
+    border: none;
+    color: #c5d2e5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datatable, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.editbutton
+{
+    background-color: #3f69a8;
+    border: none;
+    color: #ecf0f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 25px;
+    cursor: pointer;
+}
+
+h1,h2
+{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.navtop
+{
+    background-color: #3f69a8;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+
+.navtop div
+{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+
+.navtop div h1, .navtop div a
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.navtop div h1
+{
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f6;
+    font-weight: normal;
+}
+
+.navtop div a
+{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c5d2e5;
+    font-weight: bold;
+}
+
+.navtop div a i
+{
+    padding: 2px 8px 0 0;
+}
+
+.navtop div a:hover
+{
+    color: #ecf0f6;
+}
+
+.newbutton {
+    background-color: #3f69a8;
+    border: none;
+    color: #ecf0f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 190px;
+    cursor: pointer;
+}
+
+p
+{
+    font-size: 20px;
+    text-align: center;
+    color: #3f69a8;
+}
+
+.start
+{
+    font-size: 30px;
+    text-align: center;
+    color: #3f69a8;
+    margin: 840px;
+}
+
+.table-add tr, .table-add th, .table-add td
+{
+    margin: 20px 800px;
+    border: none;
+}
+
+.table-edit th, .table-edit td
+{
+    border: none;
+}
+
+td {
+    text-align: center;
+}
+
+th{
+    color: #ecf0f6;
+}
