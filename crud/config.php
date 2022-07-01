@@ -111,7 +111,7 @@ function template_header($title) {
         <body>
         <nav class="navtop">
             <div>
-                <h1>Customers data manager</h1>
+                <h1>Customers data management</h1>
                 <a href="home.php"><i class="fas fa-home"></i>Home</a>
                 <a href="index.php"><i class="fas fa-address-book"></i>Contacts</a>
             </div>
