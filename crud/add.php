@@ -3,7 +3,7 @@
 include_once("config.php");
 
 if(isset($_POST['Submit'])) {
-    // first comment
+    // first comment lol
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $age = $_POST['age'];
