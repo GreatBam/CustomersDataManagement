@@ -13,7 +13,7 @@ if(isset($_POST['Submit'])) {
     if(empty($firstname) || empty($lastname) || empty($age) || empty($email) || empty($phone)) {
 
         if(empty($firstname)) {
-            echo "<font color='red'>Firstname field is empty!</font><br/>";
+            echo "<font color='red'>Firstname field is empty.</font><br/>";
         }
 
         if (empty($lastname)) {
