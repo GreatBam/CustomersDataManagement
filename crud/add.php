@@ -63,11 +63,11 @@ if(isset($_POST['Submit'])) {
                 <td><input type="text" name="age"></td>
             </tr>
             <tr>
-                <td>Email</td>
+                <td>Email lol</td>
                 <td><input type="text" name="email" placeholder="exemple@test.com"></td>
             </tr>
             <tr>
-                <td>Phone</td>
+                <td>Phone lol</td>
                 <td><input type="text" name="phone" placeholder="077 / 123 45 67"></td>
             </tr>
             <tr>
